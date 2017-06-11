@@ -1,0 +1,12 @@
+.container .about-title {
+    letter-spacing: 10px;
+    text-align: center;
+    color: black;
+    font-size: 36px;
+}
+.container .about-image {
+    margin: 0 auto;
+    display: block;
+    border-radius: 70px;
+    border: 3px solid;
+}

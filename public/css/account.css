@@ -1,0 +1,27 @@
+.account .row .title {
+        color: black;
+}
+.account .row .order-container {
+    border: solid 1px black;
+    margin-bottom: 10px;
+    background: rgba(3, 13, 24, 0.96);
+    color: white;
+    letter-spacing: 1px;
+}
+.account .row .order-container .orderid {
+    font-size: 20px;
+    border-bottom: 1px solid white;
+}
+.account .row .order-container .order-totals {
+    text-align: right;
+}
+.account .row .order-container .order-products {
+    border-top: 1px solid white;
+    margin-bottom: 15px;
+}
+.account .row .order-container .order-products .order-title {
+    border-bottom: 1px solid white;
+}
+.account .row .order-container .order-products .order-product .product {
+    display: inline-block;
+}

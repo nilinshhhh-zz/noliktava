@@ -1,0 +1,29 @@
+#app .content-container {
+    background: #fff;
+    display: inline-block;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 60px;
+}
+#app h1 {
+    color: black;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+}
+#app .content-container .form .form-group {
+    margin-bottom: 20px;
+}
+#app .content-container .form .form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#app .content-container .form .form-group .btn-primary {
+    background-color: black;
+    border-color: white;
+    width: 20%;
+    float: right;
+}
+

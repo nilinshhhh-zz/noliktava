@@ -1,0 +1,96 @@
+.row.add .form-group {
+    padding: 0 15px;
+}
+.row.add .btn-primary {
+    width: 100%;
+    background-color: black;
+}
+.row .search input.search {
+    width: 77.5%;
+}
+.allproducts > .title {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.allproducts > .title h4 {
+    color: black;
+    letter-spacing: 0.5px;
+    margin: 0;
+    font-size: 28px;
+}
+.allproducts .product {
+    padding-bottom: 10px;
+    display: block;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.allproducts .product .field span {
+    font-weight: 700;
+    vertical-align: -webkit-baseline-middle;
+}
+.allproducts .product .field.id {
+    width: 50px;
+    float: left;
+}
+.allproducts .product .field.title {
+    width: 40%;
+    float: left;
+}
+.allproducts .product .field.control {
+    float: right;
+    display: inline-block;
+}
+.allproducts .product .field.control .btn {
+    background-color: black;
+}
+
+h4.form-title {
+    font-size: 28px;
+    color: black;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+form .btn {
+    background-color: black;
+    width: 100%;
+}
+h4.ordertitle {
+    font-size: 28px;
+    color: black;
+}
+.orders .order {
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+    padding-bottom: 40px;
+}
+.order .field {
+    font-size: 18px;
+    color: black;
+}
+.order .field.id h4 {
+    font-weight: 700;
+}
+.order .field.products {
+    line-height: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.order .field.products h4 {
+    font-weight: 700;
+}
+.order .field select {
+    height: 34px;
+    float: right;
+}
+.order .field input.status {
+    background-color: black;
+    float: right;
+}
+.order .field.status {
+    display: inline-block;
+    float: right;
+}
