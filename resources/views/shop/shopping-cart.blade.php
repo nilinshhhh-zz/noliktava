@@ -14,7 +14,7 @@
                             <li class="list-group-item product-container">
                                 <span class="badge">Qty : {{$product['qty']}}</span>
                                 <strong>{{$product['item']['title']}}</strong>
-                                <span class="label label-success">{{$product['price']}}</span>
+                                <span class="label label-success">${{$product['price']}}</span>
                                 <div class="btn-group">
                                     <button type="button" data-toggle="dropdown" class="btn btn-primary btn-xs dropdown-toggle">
                                         <span class="caret">
