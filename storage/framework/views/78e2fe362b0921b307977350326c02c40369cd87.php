@@ -65,7 +65,7 @@
             <div class="row">
             <?php endif; ?>
                 <?php $__currentLoopData = $products; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $product): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-4 col-lg-4 col-md-4 product-container-shop">
                         <div class="thumbnail">
                             <img src="<?php echo e(URL::to('/')); ?>/images/<?php echo e($product->image_path); ?>" alt="picture">
                             <div class="caption">

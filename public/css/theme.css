@@ -337,3 +337,9 @@ button.btn-primary {
     margin-left: 0;
     margin-right: 0;
 }
+@media (min-width: 768px) {
+    .product-container-shop {
+        height: 550px;
+        display: block;
+    }
+}

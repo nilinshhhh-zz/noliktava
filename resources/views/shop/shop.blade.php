@@ -61,7 +61,7 @@
             <div class="row">
             @endif
                 @foreach($products as $product)
-                    <div class="col-sm-4 col-lg-4 col-md-4">
+                    <div class="col-sm-4 col-lg-4 col-md-4 product-container-shop">
                         <div class="thumbnail">
                             <img src="{{ URL::to('/')}}/images/{{$product->image_path}}" alt="picture">
                             <div class="caption">
