@@ -12,7 +12,7 @@
                                 <div class="col-md-4 mix category-a">
                                     <div class="single-portfolio">
                                         <a class="gallery-item" href="{{ URL::to('/')}}/img/media/<?php echo $image?>">
-                                            <img class="img-responsive" src="{{ URL::to('/')}}/img/media/<?php echo $image?>" alt="One" />
+                                            <img class="img-responsive" src="{{ URL::to('/')}}/storage/gallery/<?php echo $image?>" alt="One" />
                                         </a>
                                     </div>
                                 </div>
