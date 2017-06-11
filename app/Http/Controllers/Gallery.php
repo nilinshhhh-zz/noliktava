@@ -16,7 +16,7 @@ class Gallery extends BaseController
      */
     public function getMedia() // gets all images from specific folder for gallery
     {
-        $dir = "img/media"; // directory
+        $dir = "storage/gallery"; // directory
         $ImagesArray[] = null; // define empty array
         $file_display = [ 'jpg', 'jpeg', 'png', 'gif' ]; // allowed file types
 
