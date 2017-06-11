@@ -118,7 +118,7 @@
             </div>
         </nav>
         <div id="big-picture">
-
+            <div class="web-title">blessedstone</div>
         </div>
 
         {{Menu::display('main', 'navmenu')}}
