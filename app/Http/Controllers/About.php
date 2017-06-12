@@ -19,4 +19,9 @@ class About extends BaseController
         // Return view with the data
         return view ('about')->with('about', $about);
     }
+
+    public function division() {
+        $division = Page::find(4);
+        return view('teamdivision')->with('division', $division);
+    }
 }

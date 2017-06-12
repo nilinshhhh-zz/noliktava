@@ -11,6 +11,10 @@ Route::get('/about',
     ['as' => 'about', 'uses' => 'About@create']
 );
 
+Route::get('/teamdivision',
+    ['as' => 'teamdivision', 'uses' => 'About@division']
+);
+
 Route::get('post/{slug}', function($slug){
     $post = App\Post::where('slug', '=', $slug)->firstOrFail();
     return view('post', compact('post'));
