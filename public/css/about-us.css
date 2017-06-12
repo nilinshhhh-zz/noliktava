@@ -11,3 +11,13 @@
     border: 3px solid;
     max-width: 90%;
 }
+.container.teamdiv .about-title {
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
+div.team-division table {
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    color: black;
+}
