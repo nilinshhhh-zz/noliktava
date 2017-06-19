@@ -29,9 +29,13 @@
                 <div class="order">
                     <div class="field id">
                         <h4>Invoice ID : {{sprintf('%08d', $order->id)}}</h4>
+                        Ordered at : {{$order->created_at}}
                     </div>
                     <div class="field name">
                         <h4>Full Name : {{$order->name}}</h4>
+                    </div>
+                    <div class="field name">
+                        <h4>Phone : {{$order->telephone}}</h4>
                     </div>
                     <div class="field email">
                         <h4>Contact Email : {{$order->contact_email}}</h4>

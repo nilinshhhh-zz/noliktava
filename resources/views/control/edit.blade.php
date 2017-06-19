@@ -37,7 +37,7 @@
                     <div class="col-xs-12">
                         <div class="form-group">
                             <label for="price">Price ($)</label>
-                            <input type="text" id="price" class="form-control" name="price" value="{{$product->price}}" required>
+                            <input type="number" id="price" class="form-control" name="price" value="{{$product->price}}" required>
                         </div>
                     </div>
                     <div class="col-xs-12">

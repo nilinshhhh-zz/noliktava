@@ -12,7 +12,7 @@
                             <li class="list-group-item product-container">
                                 <span class="badge">Qty : <?php echo e($product['qty']); ?></span>
                                 <strong><?php echo e($product['item']['title']); ?></strong>
-                                <span class="label label-success"><?php echo e($product['price']); ?></span>
+                                <span class="label label-success">$<?php echo e($product['price']); ?></span>
                                 <div class="btn-group">
                                     <button type="button" data-toggle="dropdown" class="btn btn-primary btn-xs dropdown-toggle">
                                         <span class="caret">

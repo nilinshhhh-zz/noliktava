@@ -32,9 +32,14 @@
                 <div class="order">
                     <div class="field id">
                         <h4>Invoice ID : <?php echo e(sprintf('%08d', $order->id)); ?></h4>
+                        Ordered at : <?php echo e($order->created_at); ?>
+
                     </div>
                     <div class="field name">
                         <h4>Full Name : <?php echo e($order->name); ?></h4>
+                    </div>
+                    <div class="field name">
+                        <h4>Phone : <?php echo e($order->telephone); ?></h4>
                     </div>
                     <div class="field email">
                         <h4>Contact Email : <?php echo e($order->contact_email); ?></h4>

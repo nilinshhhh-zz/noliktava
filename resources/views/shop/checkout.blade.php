@@ -47,7 +47,7 @@
                             <div class="col-xs-12">
                                 <div class="form-group">
                                     <label for="telephone">Phone</label>
-                                    <input type="text" id="telephone" class="form-control" name="telephone" required>
+                                    <input type="number" id="telephone" class="form-control" name="telephone" required>
                                 </div>
                             </div>
                             <div class="col-xs-12">
